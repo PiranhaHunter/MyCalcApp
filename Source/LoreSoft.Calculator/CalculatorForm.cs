@@ -96,7 +96,7 @@ namespace LoreSoft.Calculator
             timerToolStripStatusLabel.Text = watch.Elapsed.TotalMilliseconds + " ms";
 
             _history.Add(input);
-            _historyIndex = 0;
+            _historyIndex = 0
 
             historyRichTextBox.SuspendLayout();
             historyRichTextBox.AppendText(input);
